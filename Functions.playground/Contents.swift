@@ -8,6 +8,7 @@ sayHello()
 
 // Uncomment this line to see the error that is printed in the console.
 // (You can uncomment a line by removing the // at the beginning of the line.)
+// scoping - greeting can only be used inside the function making it a local variable and causing an error when invoked outside the function
 //print(greeting)
 
 
@@ -24,7 +25,7 @@ func sayHelloToScratchy() {
 }
 
 
-func sayHelloToCat(catName: String) {
+func sayHelloToCat(catName:String){
     print("Hello, \(catName), why do you sleep so much?")
 }
 
@@ -34,4 +35,4 @@ let catFriend = "Socks"
 sayHelloToCat(catFriend)
 
 // Uncomment this line to see the error that is printed in the console.
-//sayHelloToCat()
+// sayHelloToCat()
